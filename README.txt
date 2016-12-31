@@ -4,3 +4,4 @@ my small c , c++ , java and python programs
 3.) c program to eliminate vowels and blank spaces
 4.) c program for palindrome
 5.) c program to left shift the digits
+6.) c program for permutation palindrome
