@@ -5,3 +5,5 @@ my small c , c++ , java and python programs
 4.) c program for palindrome
 5.) c program to left shift the digits
 6.) c program for permutation palindrome
+7.) c program to make the corner elements in the matrix as 1
+8.) c program to find number of vowels in a string
