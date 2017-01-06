@@ -1,51 +1,25 @@
 #include<stdio.h>
 #include<string.h>
+
 int main()
 {
-	char str[100],ch;
-	int n,a,e,i,o,u;
-	a=e=i=o=u=0;
-	printf("enter the string\n");
-	gets(str);
-	//puts(str);
-	for(n=0;n<strlen(str);n++)
+	char str[25],ch[5]={'a','e','i','o','u'};
+	int i=0,j,count;
+	
+	printf("Enter the string...");
+	scanf("%s",str);
+	
+	while(i<5)
 	{
-		ch=str[n];
-		//printf("%c\n",ch);
-		switch(ch)
+		count = 0;
+		for(j=0;j<strlen(str);j++)
 		{
-			case 'a':
-				a++;
-				break;
-			case 'e':
-				e++;
-				break;
-			case 'i':
-				i++;
-				break;
-			case 'o':
-				o++;
-				break;
-			case 'u':
-				u++;
-				break;
-			case 'A':
-				a++;
-				break;
-			case 'E':
-				e++;
-				break;
-			case 'I':
-				i++;
-				break;
-			case 'O':
-				o++;
-				break;
-			case 'U':
-				u++;
-				break;		
+			if(str[j] == ch[i])
+			{
+				count++;
+			}
 		}
+		printf("%c : %d\n",ch[i],count);
+		i++;
 	}
-	printf("a :%d\ne :%d\ni :%d\no :%d\nu :%d\n",a,e,i,o,o,u);
-	return 0;
 }
