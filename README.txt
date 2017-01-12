@@ -10,3 +10,6 @@ my small c , c++ , java and python programs
 9. ) c program to find the number of occurences in an sorted array
 10.) c program to display 5 order magic square
 11.) c program to swap the diagonal elements in a matrix
+12.) c program to print next prime number
+13.) c program to print next palindrome
+14.) c program to print wishes one letter after another
