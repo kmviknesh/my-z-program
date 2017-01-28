@@ -13,3 +13,4 @@ my small c , c++ , java and python programs
 12.) c program to print next prime number
 13.) c program to print next palindrome
 14.) c program to print wishes one letter after another
+15.) c program to swap the numbers in a matrix (up , down ,left , right)
